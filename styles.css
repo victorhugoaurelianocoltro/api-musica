@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008000;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.search-bar {
+    text-align: center;
+    margin: 20px;
+}
+
+.search-bar input {
+    padding: 20px;
+    width: 700px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 15px 35px;
+    background-color: #008000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.artists-container, .songs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding: 35px;
+}
+
+.artist-card, .song-card {
+    background-color: #333;
+    padding: 45px;
+    border-radius: 10px;
+    text-align: center;
+    width: 275px;
+    cursor: pointer;
+}
+
+.artist-card img, .song-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 360px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 50px;
+}
+
+h1{
+    width: 550px;
+    height: 130px;
+    font-size: 35px;
+}
+    .seta{
+    font-size: 50px;
+  color: black;
+  width: 1300px;
+}
+
+
+   
