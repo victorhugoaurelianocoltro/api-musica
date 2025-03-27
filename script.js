@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const params = new URLSearchParams(window.location.search);
+    const params = new URLSearchParams(window.location.search);   //aqui mostra se tiver um artista na URL, significa se o usuário clicou em um artista. 
     const artistId = params.get("artistId");
 
     if (artistId) {
